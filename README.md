@@ -60,7 +60,7 @@ A lightweight, drop-in replacement for the native WebSocket API — designed for
 | Resource | Link |
 | :--- | :--- |
 | **📦 npm** | https://www.npmjs.com/package/smart-ws |
-| **💻 GitHub** | https://github.com/your-username/smart-ws |
+| **💻 GitHub** | https://github.com/akpante3/smart-ws |
 | ** Front End: Demo** | https://github.com/akpante3/FE-smart-ws-demo
 | ** Server: Demo** | https://github.com/akpante3/smart-ws-test-server
 
