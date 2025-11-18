@@ -416,7 +416,3 @@ Pull requests are welcome! Feel free to open an issue to discuss major changes.
 
 ## 📄 License
 MIT © 2025 Victor Obije
-
-
-
-# smart-ws
