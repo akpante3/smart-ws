@@ -40,6 +40,7 @@ ws.onclose = () => {
     ws = new WebSocket(url);
   }, 1000);
 };
+```
 
 This library replaces all of the above with a single clean implementation.
 

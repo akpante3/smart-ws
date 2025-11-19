@@ -2,6 +2,7 @@
   "name": "smart-ws",
   "version": "0.1.0",
   "main": "dist/index.cjs",
+  "description": "A resilient, type-safe WebSocket client with auto-reconnect, heartbeat, offline buffering, and lifecycle ",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -9,13 +10,26 @@
     "dev": "tsup --watch",
     "test": "vitest"
   },
-  "keywords": [
+"keywords": [
     "websocket",
     "reconnect",
     "heartbeat",
-    "typescript"
+    "typescript",
+    "client",
+    "realtime"
   ],
+  "homepage": "https://github.com/akpante3/smart-ws",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "author": "Victor Obije <victorobije.career@gmail.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akpante3/smart-ws"
+  },
   "devDependencies": {
     "@types/node": "^24.10.1",
     "tsup": "^8.5.1",
