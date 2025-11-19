@@ -65,7 +65,7 @@ A lightweight, drop-in replacement for the native WebSocket API — designed for
 | ** Front End: Demo** | https://github.com/akpante3/FE-smart-ws-demo
 | ** Server: Demo** | https://github.com/akpante3/smart-ws-test-server
 
-Clone the Front End and server side to see Demo
+ -------Clone the Front End and server side to see Demo-----------
 
 
 ---
