@@ -12,7 +12,7 @@ A lightweight, drop-in replacement for the native WebSocket API — designed for
 | :--- | :--- |
 | **📦 npm** | https://www.npmjs.com/package/smart-ws |
 | **💻 GitHub** | https://github.com/your-username/smart-ws |
-| **🌐 Live Demo** | https://your-demo-link.com |
+
 
 ---
 
@@ -44,9 +44,6 @@ ws.onclose = () => {
 
 This library replaces all of the above with a single clean implementation.
 
-Here is the complete and polished README.md in Markdown format.
-
-Markdown
 
 # smart-ws ⭐
 
@@ -62,10 +59,7 @@ A lightweight, drop-in replacement for the native WebSocket API — designed for
 | :--- | :--- |
 | **📦 npm** | https://www.npmjs.com/package/smart-ws |
 | **💻 GitHub** | https://github.com/akpante3/smart-ws |
-| ** Front End: Demo** | https://github.com/akpante3/FE-smart-ws-demo
-| ** Server: Demo** | https://github.com/akpante3/smart-ws-test-server
-
- -------Clone the Front End and server side to see Demo-----------
+| ** Front End: DEMO** | https://github.com/akpante3/FE-smart-ws-demo
 
 
 ---
@@ -102,44 +96,44 @@ This library replaces all of the above with a single clean implementation.
 ✔ Automatic Reconnect (with exponential backoff)
 Configurable options include:
 
-Retry limits
+* Retry limits
 
-Min/max delays
+* Min/max delays
 
-Exponential growth factor
+* Exponential growth factor
 
-Jitter to prevent reconnection storms
+* Jitter to prevent reconnection storms
 
 ✔ Heartbeat / Ping-Pong Detection
 Prevents silent disconnections and detects dead connections. Tracks:
 
-Latency (ms)
+* Latency (ms)
 
-Last ping timestamp
+* Last ping timestamp
 
-Last pong timestamp
+* Last pong timestamp
 
 ✔ Offline Queue / Message Buffer
-When disconnected (or offline):
+* When disconnected (or offline):
 
-Outbound messages are buffered
+* Outbound messages are buffered
 
-Buffer is replayed on reconnect
+* Buffer is replayed on reconnect
 
-Queue size limits & drop strategies supported
+* Queue size limits & drop strategies supported
 
 ✔ Full Lifecycle Events
-Listen to everything from connection status to buffering:
+* Listen to everything from connection status to buffering:
 
-open, message, close, error, reconnect, ping, pong, online, offline, bufferAdd, bufferFlush.
+* open, message, close, error, reconnect, ping, pong, online, offline, bufferAdd, bufferFlush.
 
 ✔ Type-Safe API (TypeScript)
-Define exactly what your app sends/receives:
+* Define exactly what your app sends/receives:
 
 
 ```typescript
-type Inbound = { type: "chat"; text: string; user: string; timestamp: number };
-type Outbound = { type: "chat"; text: string; user: string };
+type Inbound = { type: "chat"; text: string; user: string; timestamp: number } | any;
+type Outbound = { type: "chat"; text: string; user: string } | any;
 ```
 
 No more guessing or manual type-casting.
@@ -191,6 +185,39 @@ SmartSocket
       - lifecycle events  
 
 
+## This is:
+
+* fully framework-agnostic
+
+* not tied to any UI library
+
+* not using anything React-specific
+
+* just a JavaScript class + events
+
+
+## This means it works with:
+
+* Vue
+
+* React
+
+* Svelte
+
+* Angular
+
+* SolidJS
+
+* Vanilla JS
+
+* Node.js
+
+* Electron
+
+* Bun
+
+* Cloudflare Workers
+
 ## 📦 Installation
 ```bash
 # npm
@@ -208,7 +235,6 @@ pnpm add smart-ws
 ## 🎉 Quick Start
 
 If you don't want to define strict message types yet, you can make your WebSocket fully flexible by using:
-
 
 smart-ws does not care what your message looks like.(Inbound, Outbound)
 
