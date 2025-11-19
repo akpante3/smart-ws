@@ -1,6 +1,6 @@
 {
   "name": "smart-ws",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "dist/index.cjs",
   "description": "A resilient, type-safe WebSocket client with auto-reconnect, heartbeat, offline buffering, and lifecycle ",
   "module": "dist/index.mjs",
