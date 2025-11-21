@@ -11,53 +11,6 @@ A lightweight, drop-in replacement for the native WebSocket API — designed for
 | Resource | Link |
 | :--- | :--- |
 | **📦 npm** | https://www.npmjs.com/package/smart-ws |
-| **💻 GitHub** | https://github.com/your-username/smart-ws |
-
-
----
-
-## 🚀 Introduction
-
-**smart-ws** is a fully-featured WebSocket client that fixes the biggest problems developers face when working with real-time connections:
-
-* WebSockets disconnect unexpectedly
-* Heartbeat logic must be manually implemented
-* Reconnection logic is repetitive
-* Offline mode breaks apps
-* Messages sent while disconnected get lost
-* No simple way to track connection status, retries, or latency
-* No type safety for incoming/outgoing messages
-
-**smart-ws** solves all of these problems with a modern, minimal, **TypeScript-first** API.
-
-If you’ve ever written code like this:
-
-```javascript
-const ws = new WebSocket(url);
-
-ws.onclose = () => {
-  setTimeout(() => {
-    ws = new WebSocket(url);
-  }, 1000);
-};
-```
-
-This library replaces all of the above with a single clean implementation.
-
-
-# smart-ws ⭐
-
-A **resilient**, **type-safe** WebSocket client with auto-reconnect, heartbeat, offline buffering, and lifecycle events.
-
-A lightweight, drop-in replacement for the native WebSocket API — designed for **production-grade** real-time applications.
-
----
-
-## 🔗 Links
-
-| Resource | Link |
-| :--- | :--- |
-| **📦 npm** | https://www.npmjs.com/package/smart-ws |
 | **💻 GitHub** | https://github.com/akpante3/smart-ws |
 | ** Front End: DEMO** | https://github.com/akpante3/FE-smart-ws-demo
 
